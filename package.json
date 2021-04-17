@@ -1,5 +1,5 @@
 {
-    "name": "lua2json",
+    "name": "luat2json",
     "version": "0.0.1",
     "description": "transform lua table to json",
     "keywords": [
@@ -10,10 +10,10 @@
     ],
     "author": "iRuxu",
     "license": "MIT",
-    "homepage": "https://github.com/iRuxu/lua2json",
+    "homepage": "https://github.com/iRuxu/luat2json",
     "repository": {
         "type": "git",
-        "url": "git@github.com:iRuxu/lua2json.git"
+        "url": "git@github.com:iRuxu/luat2json.git"
     },
     "main": "./index.js",
     "devDependencies": {
