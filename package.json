@@ -23,6 +23,10 @@
     },
     "scripts": {
         "build": "npx rollup ./index.js --file ./main.js --format cjs",
-        "test": "npx jest"
+        "test": "npx jest",
+        "demo": "node ./demo/test.js"
+    },
+    "dependencies": {
+        "luaparse": "^0.3.0"
     }
 }
