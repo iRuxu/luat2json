@@ -1,0 +1,28 @@
+{
+    "name": "lua2json",
+    "version": "0.0.1",
+    "description": "transform lua table to json",
+    "keywords": [
+        "lua",
+        "json",
+        "table",
+        "jx3dat"
+    ],
+    "author": "iRuxu",
+    "license": "MIT",
+    "homepage": "https://github.com/iRuxu/lua2json",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:iRuxu/lua2json.git"
+    },
+    "main": "./index.js",
+    "devDependencies": {
+        "@babel/plugin-transform-modules-commonjs": "^7.9.0",
+        "jest": "^25.3.0",
+        "rollup": "^2.6.0"
+    },
+    "scripts": {
+        "build": "npx rollup ./index.js --file ./main.js --format cjs",
+        "test": "npx jest"
+    }
+}

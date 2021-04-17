@@ -1,0 +1,10 @@
+.github
+.vscode
+node_modules
+/test
+/todo
+.gitignore
+.npmignore
+LICENSE
+package-lock.json
+
